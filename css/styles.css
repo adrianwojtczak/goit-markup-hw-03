@@ -1,0 +1,182 @@
+:root {
+    --primary-color: #212121;
+    --main-blue: #2196f3;
+    --button-color: #f5f4fa;
+    --main-black: #000000;
+    --main-white: #ffffff;
+    --main-grey: #757575;
+    --bg-dark: #2f303a;
+    --white-grey: #ffffff99;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    list-style-type: none;
+}
+
+.active:visited,
+.contact:visited,
+.active,
+.contact {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active:link,
+.contact:link {
+    text-decoration: none;
+}
+
+.active:hover,
+.active:focus {
+    color: var(--main-blue);
+}
+
+.list-no-marker {
+    list-style: none;
+}
+
+/*Buttons*/
+.button {
+    cursor: pointer;
+    font-family: inherit;
+    background: var(--button-color);
+    text-align: center;
+    font-size: 16px;
+}
+
+.button:hover {
+    color: var(--main-white);
+    background-color: var(--main-blue);
+}
+
+.button-main {
+    font-weight: 700;
+    line-height: 1.88;
+}
+
+.button-portfolio {
+    font-weight: 500;
+    line-height: 1.62;
+}
+
+/* logo*/
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-header {
+    color: var(--main-black);
+}
+
+.logo-footer {
+    color: var(--main-white);
+}
+
+.logo-blue {
+    color: var(--main-blue);
+}
+
+/*header*/
+.nav-menu-header,
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.nav-menu-header {
+    color: var(--primary-color);
+}
+
+.contact {
+    color: var(--main-grey);
+}
+
+/*backgrouns*/
+.bg-dark {
+    background-color: var(--bg-dark);
+}
+
+.bg-grey {
+    background-color: var(--button-color);
+}
+
+/*footer*/
+.footer-address {
+    font-size: 14px;
+    line-height: 146%;
+}
+
+.footer-address-main {
+    color: var(--main-white);
+}
+
+.footer-address-secondary {
+    color: var(--white-grey);
+}
+
+/*Index main*/
+
+.section-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.header-main {
+    color: var(--main-white);
+    font-weight: 900;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.section-our-strengths {
+    font-size: 14px;
+}
+
+.section-our-strengths-header {
+    font-weight: 700;
+    line-height: 1.14;
+}
+
+.section-our-strengths-content {
+    color: var(--main-grey);
+    line-height: 1.71;
+}
+
+.card {
+    font-size: 16px;
+    line-height: 1.19;
+    display: inline-block;
+}
+
+.card-description {
+    text-align: center;
+}
+
+.card-header {
+    font-weight: 500;
+}
+
+.card-content {
+    color: var(--main-grey);
+}
+
+/*portfolio*/
+.card-portfolio-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.card-portfolio-content {
+    font-size: 16px;
+    line-height: 1.88;
+}
